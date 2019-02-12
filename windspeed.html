@@ -3,14 +3,43 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Bootstrap Components</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+<div class="container">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     <a href="header.html"> <button class="btn-lg btn-primary">Latitude</button></a>
+    
+    
+   </div>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plot
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="max_temp.html">Max Temperature</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind</a></li>
 
+        </ul>
+      </li>
+      <li><a href="#">Comparison</a></li>
+      <li><a href="#">Data</a></li>
+     </ul>
+  </div>
+</nav>
+</div>
   <h1>Wind Speed</h1>
   <rl>
-  <img src="resources/fig4.png" alt="Wind Speed">
+  <img class="img-responsive" src="resources/fig4.png" alt="Wind Speed">
 
   <p>As expected, the weathter becomes significantly warmer as one approaches the equator(0 Deg. Latitude). More Interestly, however, is the fact that the southern hemisphere</p>
   <p>tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth  at the time of the year this data was gathered </p>
