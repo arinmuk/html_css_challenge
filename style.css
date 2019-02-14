@@ -1,0 +1,66 @@
+
+a:link  {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+a:active {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+  font-family: Georgia;
+  font-size:15px;
+  color: black;
+  font-weight:bolder;
+}
+
+.header {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 30px;
+      
+}
+.pageTitle {
+    color: cadetblue;
+   
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.emptyDiv {
+  padding: 80px;
+}
+
+.data-text-alignment {
+    text-align:justify;
+    padding:5px;
+}
+
+.colempty {
+  width: .98%;
+}
+
+
+.colpad {
+  padding-left:20px;
+  padding-right:20px;
+
+}
+
+.row{
+   margin-left:0;
+   margin-right:0;
+}
