@@ -68,13 +68,15 @@ body {
     position:relative;
     top:-25px;
     left:-35px;
-    width:500px;
+    width:300px;
     height:auto;
     display:block;
     z-index:999;
+    border:2px solid blue;
+    margin:0px;
 }
 .column {
-	margin: 15px 15px 15px;
+	margin: 8px 8px 0;
 	padding: 0;
 }
 .hover02 figure:hover img {
@@ -93,7 +95,7 @@ body {
 	transition: .3s ease-in-out;
 }
 .hover01 figure:hover img {
-	-webkit-transform: scale(3.4);
-	transform: scale(3.4);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
